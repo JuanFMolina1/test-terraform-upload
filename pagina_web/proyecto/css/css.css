@@ -1,0 +1,347 @@
+ /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+      background-color: #BDBDBD;
+    }
+    
+    #instrumento{
+
+      text-align: center;
+    }
+    #tipos{
+
+      text-align: center;
+    }
+    #artistico{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #geometrico{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #tecnico{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #geodesico{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #instrumentos{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #dibujar{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #tintas{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #soporte{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #abstracto{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #siglo1{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #siglo2{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #estilo{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #curvilineo{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #cromatico{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #geometrico{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #intuicional{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #gestual{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #minimalista{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    .nav-link  {
+      background-color: black;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 20px 20px;
+      font-size: 17px;
+      width: 100%;
+    }
+    #ultimo{
+      background-color: #555;
+    }
+    #graffiti{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #art{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #publico{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #latrinalia{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    #historia{
+
+      font-family: "Lucida Bright","Lucida Console";
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+    #mensaje1{
+      font-size: 15px;
+      position: absolute;
+      top: 464px;
+      right: 70px;
+    }
+    
+    
+/* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+    }
+
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+    
+.modal{
+  display: none;
+}
+#galeria{
+
+  cursor: pointer;
+}
+#myFooter {
+	background-color: black;
+	color:white;
+}
+
+#myFooter .footer-copyright{
+	background-color:grey;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+  color: #ccc;
+  font-family: "Lucida Bright","Lucida Console";
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+    font-family: "Lucida Bright","Lucida Console";
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: "Lucida Bright","Lucida Console";
+}
+
+#myFooter a{
+	color:#d2d1d1;
+  text-decoration: none;
+  font-family: "Lucida Bright","Lucida Console";
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+  color:white;
+  font-family: "Lucida Bright","Lucida Console";
+}
+
+#myFooter .myCols{
+  text-align: center;
+ 
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+  padding-bottom: 38px;
+  font-family: "Lucida Bright","Lucida Console";
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+    font-family: "Lucida Bright","Lucida Console";
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: blanchedalmond;
+
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+html{
+	height: 100% !important;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 200px;
+}
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
